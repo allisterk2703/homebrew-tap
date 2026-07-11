@@ -1,9 +1,9 @@
 cask "flashcard" do
   arch arm: "-arm64", intel: ""
 
-  version "1.0.0"
-  sha256 arm:   "f56987a4a06e20c463eb86ab8cf5b1148bb2724912a814fd3382c5d2a4994ea6",
-         intel: "5057d33b52d4efc44f7c55e96346fdbaeee5e0fbd8df9b8b1d27c37755f1638e"
+  version "1.1.0"
+  sha256 arm:   "e6dcdadcef8ea7f441605f79a6887c677f699a28594c2b3b5cdeb45a5cccd552",
+         intel: "62673cbc4e806058157faa8a15a42b7c2ee6bd7d8fe8c486e6d549485ddfdb88"
 
   url "https://github.com/allisterk2703/flashcard/releases/download/v#{version}/FlashCard-#{version}#{arch}-mac.zip"
   name "FlashCard"
